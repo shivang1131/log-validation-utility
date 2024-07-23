@@ -382,7 +382,7 @@ export const checkOnConfirm = (data: any, fulfillmentsItemsSet: any) => {
         logger.error(`updated_at timestamp should be equal to  context timestamp for /${constants.ON_CONFIRM}`)
       }
     } catch (error: any) {
-      logger.error(`!!Error while compairing updated_at timestamp with context timestamp for ${constants.ON_CONFIRM}`)
+      logger.error(`!!Error while comparing updated_at timestamp with context timestamp for ${constants.ON_CONFIRM}`)
     }
 
     try {
